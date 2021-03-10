@@ -1,0 +1,172 @@
+
+body {
+    background-color: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+#wrapper {
+    background-color: white;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+header {
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    padding: 10px;
+    text-align: center;
+    background: #f088a2;
+    color: white;
+    margin-top: 0px;
+    height: 100px;
+}
+header h1{
+    font-style: italic;
+    font-size: 30px;
+    font-weight: bold;
+}
+header h2 {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+img {
+    float: left;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 300px;
+}
+nav {
+    font-family: font-family: "Gill Sans", sans-serif;;
+    font-size: 1.25em;
+    font-weight: bold;
+    text-align: center;
+    height: 40px;
+}
+nav ul {
+    padding: 0;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+nav li {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    height: 36px;
+    display: inline;
+    float: left;
+    margin-left: 1%;
+    padding-left: 0;
+    padding-right: 0;
+    width: 32%;
+    white-space: nowrap;
+    border-radius: 0;
+    background-color:  #415fe6;
+}
+
+nav li a {
+   
+    color: #fff;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    background-color: violet;
+    color: snow;
+    font-style: italic;
+}
+
+main {
+    padding: 10px;
+    width: 65%;
+    float: right;
+
+}
+aside {
+    padding: 10px;
+    width: 30%;
+    float: left;
+
+}
+ul a:hover {
+    font-style: oblique;
+    background-color: violet;
+    
+    font-size: 20px;
+    padding: 10px;
+}
+ul
+{
+    line-height: 30px;
+}
+
+h1#name
+{
+    font-style: italic;
+    color:  hsl(253, 86%, 11%);
+}
+
+#educ {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#educ td, #educ th {
+    border: 1px solid rgb(131, 202, 214);
+    padding: 8px;
+}
+
+#educ tr:nth-child(even){background-color: #92cae0;}
+
+#educ tr:hover {background-color: rgb(139, 197, 131);}
+
+#educ th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(113, 111, 238);
+    color: snow;
+}
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+footer {
+    clear: both;
+    background-color: #f088a2;
+    height: 50px;
+    padding: 10px;
+    text-align: left;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
